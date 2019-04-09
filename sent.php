@@ -18,12 +18,18 @@
   </div>
 
   <div class="main">
-    <div class="thanks-massage">お問い合わせいただきありがとうございます。</div>
+    <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
     <div class="display-contact">
       <div class="form-title">入力内容</div>
 
       <div class="form-item">■ 名前</div>
       <?php echo $_POST['name']; ?>
+
+      <div class="form-item">■ 年齢</div>
+      <?php echo $_POST['age']; ?>
+
+      <div class="form-item">■ お問い合わせの種類</div>
+      <?php echo $_POST['category'];?>
       <div class="form-item">■ 内容</div>
       <?php echo $_POST['body']; ?>
     </div>
@@ -38,7 +44,8 @@
       </ul>
     </div>
     <div class="like-box">
-      <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe>
+      <!-- <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe> -->
+      <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539&amp;show_faces=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe>
     </div>
   </div>
 </body>
